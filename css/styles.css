@@ -5,7 +5,7 @@ main-header {
 }
 header {
     text-align: center;
-    background-color: antiquewhite;
+    background-color: rgb(233, 187, 128);
 }
 
 h1 {
@@ -13,15 +13,15 @@ h1 {
 }
 
 h2 {
-    background-color: khaki; 
+    background-color: rgb(75, 68, 4); 
 }
 
 h3 {
-    background-color: olive;
+    background-color:  rgb(75, 68, 4); 
 }
 
 h4  {
-    background-color: saddlebrown;
+    background-color:  rgb(83, 78, 31); 
 } 
 h5 {
     background-color: tan;
