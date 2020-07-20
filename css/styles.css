@@ -21,6 +21,23 @@ This is where I added flexbox
     height: 300px;
 
 }
+/*
+This is where I added font styling
+*/
+h1 {
+    font-style: italic;
+}
+
+p.a {
+    font-style: italic;
+}
+
+p.b {
+    
+    font-style: italic;
+    text-align: center;
+    
+}
 
 main-header {
     text-align: absolute;
@@ -32,6 +49,7 @@ header {
     text-align: center;
     background-color: rgb(233, 187, 128);
 }
+
 
 h1 {
     background-color: darkgreen;
