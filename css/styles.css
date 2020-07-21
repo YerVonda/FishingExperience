@@ -1,5 +1,5 @@
 /*
-This is where I added flexbox
+This is where I added flexbox content
 */
 
 .flex-container {
@@ -22,20 +22,21 @@ This is where I added flexbox
 
 }
 /*
-This is where I added font styling
+This is where I astarted adding styling
 */
 h1 {
+    font-family: cursive;
+}
+
+p.fishing {
     font-style: italic;
 }
 
-p.a {
-    font-style: italic;
-}
-
-p.b {
+p.honesty {
     
-    font-style: italic;
+    font-family: cursive;
     text-align: center;
+    font-size: x-large;
     
 }
 
@@ -69,11 +70,6 @@ p.content2 {
 p.content3 {
 
     background-color: rgb(90, 41, 6);
-    font-size: x-large;
-}
-
-p.Testimonies {
-    font-style: italic;
     font-size: x-large;
 }
 
@@ -139,7 +135,7 @@ body {
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
+/* Number text (1/10 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -182,14 +178,26 @@ body {
   to {opacity: 1}
 }
 
+/* Continue addinf styling*/
 
+p.Testimonies {
+    font-style: italic;
+    font-size: xx-large;
+    text-decoration: underline;
+}
 
-
+p.honesty {
+    
+    font-family: cursive;
+    text-align: center;
+    font-size: x-large;
+    
+}
 
 footer {
     text-align: center;
     padding: 3px;
     background-color: darkgreen;
-
-            
+  
+    
   }
