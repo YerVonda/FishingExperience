@@ -50,25 +50,33 @@ header {
     background-color: rgb(233, 187, 128);
 }
 
-
 h1 {
     background-color: darkgreen;
+    }
+
+p.content1 {
+
+    background-color: rgb(90, 41, 6);
+    font-size: x-large;
 }
 
-h2 {
-    background-color: rgb(75, 68, 4); 
+p.content2 {
+
+    background-color: rgb(90, 41, 6);
+    font-size: x-large;
 }
 
-h3 {
-    background-color:  rgb(75, 68, 4); 
+p.content3 {
+
+    background-color: rgb(90, 41, 6);
+    font-size: x-large;
 }
 
-h4  {
-    background-color:  rgb(83, 78, 31); 
-} 
-h5 {
-    background-color: darkgreen;
+p.Testimonies {
+    font-style: italic;
+    font-size: x-large;
 }
+
 h6 {
     background-color:  rgb(233, 187, 128);
 }
