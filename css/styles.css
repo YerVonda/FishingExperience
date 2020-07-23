@@ -30,6 +30,8 @@ h1 {
 
 p.fishing {
     font-style: italic;
+    text-align: center;
+    
 }
 
 p.honesty {
@@ -38,6 +40,12 @@ p.honesty {
     text-align: center;
     font-size: x-large;
     
+}
+p.Lakes {
+
+    text-align: left;
+    font-size: medium;
+
 }
 
 main-header {
@@ -59,18 +67,22 @@ p.content1 {
 
     background-color: rgb(90, 41, 6);
     font-size: x-large;
+    text-align: center;
 }
 
 p.content2 {
 
     background-color: rgb(90, 41, 6);
     font-size: x-large;
+    text-align: center;
 }
 
 p.content3 {
 
     background-color: rgb(90, 41, 6);
     font-size: x-large;
+    text-align: center;
+
 }
 
 h6 {
@@ -144,7 +156,7 @@ body {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
+/* Added dots/bullets/indicators as a second option to view pictures */
 .dot {
   cursor: pointer;
   height: 15px;
