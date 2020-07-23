@@ -49,7 +49,7 @@ p.Lakes {
 
 }
 
-main-header {
+#main-header {
     text-align: absolute;
     padding: 0%;
     width: 100%;
@@ -84,10 +84,6 @@ p.content3 {
     font-size: x-large;
     text-align: center;
 
-}
-
-h6 {
-    background-color:  rgb(233, 187, 128);
 }
 
 body {
@@ -204,6 +200,7 @@ p.honesty {
     font-family: cursive;
     text-align: center;
     font-size: x-large;
+    background-color:  rgb(233, 187, 128);
     
 }
 
