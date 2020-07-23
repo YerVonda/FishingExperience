@@ -44,7 +44,8 @@ p.honesty {
 p.Lakes {
 
     text-align: left;
-    font-size: medium;
+    font-size: 25px;
+    text-decoration: underline;
 
 }
 
