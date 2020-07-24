@@ -16,13 +16,14 @@ This is where I added flexbox content
     line-height: 75px;
     font-size: 30px;
   }
+  
 .flex-container > div > img {
     width: 300px;
     height: 300px;
 
 }
 /*
-This is where I astarted adding styling
+This is where I started adding styling
 */
 h1 {
     font-family: cursive;
@@ -187,7 +188,7 @@ body {
   to {opacity: 1}
 }
 
-/* Continue addinf styling*/
+/* Continue adding styling for bottom of webpage*/
 
 p.Testimonies {
     font-style: italic;
