@@ -30,16 +30,21 @@ function showSlides(n) {
 
 // Form vaildation
 function getUserInformation() {
-    var x, text;
+    var nameIn, emailIn, commentIn, text;
   
     // Get the value of the input field with id="numb"
-    x = document.getElementById("numb").value;
+    nameIn = document.getElementById("name").value;
+    // emailIn = document.getElementById("email").value;
+    // commentIn = document.getElementById("comment").value;
   
-    // If x is Not a Number or less than one or greater than 10
-    if (isNaN(x) || x < 1 || x > 10) {
-      text = "Input not valid";
+    // Validate Users Name
+    if (nameIn.length == 0) {
+        text = "Name Unknown";
     } else {
-      text = "Input OK";
+        text = "Thank You!";
     }
+
+    // TODO: Valide User Email
+
     document.getElementById("demo").innerHTML = text;
   }
