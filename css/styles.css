@@ -6,6 +6,7 @@ This is where I added flexbox content
     display: flex;
     flex-wrap: wrap;
     background-color: black;
+    justify-content: center;
   }
   
 .flex-container > div {
