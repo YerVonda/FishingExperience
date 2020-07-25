@@ -29,7 +29,7 @@ function showSlides(n) {
 }
 
 // Form vaildation
-function myFunction() {
+function getUserInformation() {
     var x, text;
   
     // Get the value of the input field with id="numb"
