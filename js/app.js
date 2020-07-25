@@ -39,7 +39,7 @@ function getUserInformation() {
   
     // Validate Users Name
     if (nameIn.length == 0) {
-        text = "Name Unknown";
+        text = "Invaild Name";
     } else {
         text = "Thank You!";
     }
