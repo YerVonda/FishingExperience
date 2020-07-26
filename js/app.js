@@ -47,7 +47,8 @@ function getUserInformation() {
     } 
 
     //  Valide User Email
-    if (emailIn.length == 0) {
+    var re = /\S+@\S+\.\S+/;   
+    if (!re.test(emailIn)) {
       text = text + "incorrect email  ";
   } 
 
