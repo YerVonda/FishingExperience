@@ -15,3 +15,8 @@ Reference:
 citiation credit to w3schools.com for carousel coding examples:
 https://www.w3schools.com/howto/howto_js_slideshow.asp
 
+citiation credit to w3schools.com for javaScript form validation coding examples:
+https://www.w3schools.com/js/js_validation.asp
+
+citiation credit to slackflow for email validation coding examples:
+https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript/9204568#9204568
