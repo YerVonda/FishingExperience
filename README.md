@@ -7,7 +7,7 @@ Features of project:
 
 2) Carousel with 10 pictures to view with two options (viewers choice of strolling through pictures) with the ottion to use left and right arrows or dots at the bottom of carousel.
 
-3) Form using JavaScript that returns a value after input (working on now)
+3) Form using JavaScript that returns a value after each input. 
 
 Requirements to view project:
 

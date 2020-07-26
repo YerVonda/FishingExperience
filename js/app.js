@@ -32,11 +32,11 @@ function showSlides(n) {
 function getUserInformation() {
     var nameIn, emailIn, commentIn, text;
   
-    // Get the value of the input field with id="numb"
+    // Get the value of all the imput fields
     nameIn = document.getElementById("name").value;
-    // emailIn = document.getElementById("email").value;
+   
     emailIn = document.getElementById("email").value;
-    // commentIn = document.getElementById("comment").value;
+    
     commentIn = document.getElementById("comment").value;
   
    text = "";
@@ -60,5 +60,5 @@ function getUserInformation() {
  
 text = "I'm totally Happy with everything you done Thank You";
 }
-    document.getElementById("demo").innerHTML = text;
+    document.getElementById("vaildation-message").innerHTML = text;
   }
