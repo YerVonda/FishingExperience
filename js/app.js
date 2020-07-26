@@ -61,5 +61,5 @@ function getUserInformation() {
  
 text = "I'm totally Happy with everything you done Thank You";
 }
-    document.getElementById("vaildation-message").innerHTML = text;
+    document.getElementById("validation-message").innerHTML = text;
   }
