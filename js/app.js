@@ -39,27 +39,26 @@ function getUserInformation() {
     // commentIn = document.getElementById("comment").value;
     commentIn = document.getElementById("comment").value;
   
+   text = "";
+
     // Validate Users Name
     if (nameIn.length == 0) {
-        text = "Invaild Name";
-    } else {
-        text = "Thank You!";
-    }
+        text = "Invaild Name  ";
+    } 
 
     //  Valide User Email
     if (emailIn.length == 0) {
-      text = "incorrect email";
-  } else {
-      text = "Someone Will Contact You Soon!";
-  }
+      text = text + "incorrect email  ";
+  } 
 
   // Validate Comment
   if (commentIn.length == 0) {
-    text = "Unsharable Comment";
-} else {
-    text = "Thank You For your Opinion!";
-}
+    text = text + "Unsharable Comment";
+} 
+ if (text.length == 0) {
 
-  
+ 
+text = "I'm totally Happy with everything you done Thank You";
+}
     document.getElementById("demo").innerHTML = text;
   }
