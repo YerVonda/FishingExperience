@@ -48,7 +48,7 @@ function getUserInformation() {
 
     //  Valide User Email
     if (emailIn.length == 0) {
-      text = "Invaild email";
+      text = "incorrect email";
   } else {
       text = "Someone Will Contact You Soon!";
   }
