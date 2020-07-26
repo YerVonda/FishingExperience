@@ -46,7 +46,19 @@ function getUserInformation() {
         text = "Thank You!";
     }
 
-    // TODO: Valide User Email
+    //  Valide User Email
+    if (emailIn.length == 0) {
+      text = "Invaild email";
+  } else {
+      text = "Someone Will Contact You Soon!";
+  }
+
+  // Validate Comment
+  if (commentIn.length == 0) {
+    text = "Unsharable Comment";
+} else {
+    text = "Thank You For your Opinion!";
+}
 
     document.getElementById("demo").innerHTML = text;
   }
