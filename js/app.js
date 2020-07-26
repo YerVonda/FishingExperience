@@ -60,5 +60,6 @@ function getUserInformation() {
     text = "Thank You For your Opinion!";
 }
 
+  
     document.getElementById("demo").innerHTML = text;
   }
