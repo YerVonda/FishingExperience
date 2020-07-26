@@ -35,7 +35,9 @@ function getUserInformation() {
     // Get the value of the input field with id="numb"
     nameIn = document.getElementById("name").value;
     // emailIn = document.getElementById("email").value;
+    emailIn = document.getElementById("email").value;
     // commentIn = document.getElementById("comment").value;
+    commentIn = document.getElementById("comment").value;
   
     // Validate Users Name
     if (nameIn.length == 0) {
