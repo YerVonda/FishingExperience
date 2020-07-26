@@ -21,13 +21,11 @@ This is where I added flexbox content
 .flex-container > div > img {
     width: 300px;
     height: 300px;
-
 }
 
 .mySlides > img {
 
-    width: 100%;
-  
+    width: 100%; 
 }
 
 /*
@@ -39,23 +37,21 @@ h1 {
 
 p.fishing {
     font-style: italic;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 p.honesty {
     
     font-family: cursive;
     text-align: center;
-    font-size: x-large;
-    
+    font-size: x-large;  
 }
+
 p.Lakes {
 
     text-align: left;
     font-size: 25px;
     text-decoration: underline;
-
 }
 
 #main-header {
@@ -92,7 +88,6 @@ p.content3 {
     background-color: rgb(90, 41, 6);
     font-size: x-large;
     text-align: center;
-
 }
 
 body {
@@ -209,9 +204,16 @@ p.honesty {
     font-family: cursive;
     text-align: center;
     font-size: x-large;
-    background-color:  rgb(233, 187, 128);
-    
+    background-color:  rgb(233, 187, 128);  
 }
+
+h2 {
+  text-align: center;
+}
+p.Data{
+  justify-content: center;
+}
+
 
 footer {
     text-align: center;
