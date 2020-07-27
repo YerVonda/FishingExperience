@@ -24,7 +24,6 @@ This is where I added flexbox content
 }
 
 .mySlides > img {
-
     width: 100%; 
 }
 
@@ -212,24 +211,24 @@ h2 {
   font-size: large;
 }
 .Data-container {
-  display: flex;
-  justify-content: center;
+ text-align: center;
 }
-.Help-container {
+/* .Help-container {
  display: flex;
  justify-content: center; 
 }
 .Help-container > div {
   font-size: 15px;
   
-}
+} */
 
 .button {
   display: flex;
 }
 
-.validation-message {
+#validation-message {
   display: flex;
+  justify-content: center;
 }
 
 

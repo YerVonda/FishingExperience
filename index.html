@@ -171,30 +171,48 @@
 
     <!-- Input information for form-->
 
-   
+
     <div>
         <h2>Sign up for weekly updates and leave a comment to schedule a time to go fishing with YerVonda!</h2>
-    </div> 
+    </div>
 
-        <div class="Data-container">
+    <!-- <div class="Data-container">
+        <label for="name">Please tell us your name:</label>
         <input id="name">
+        <label for="email">Please tell us your email:</label>
         <input id="email">
+        <label for="comment">Please tell us your comment:</label>
         <input id="comment">
         <button  type="button" onclick="getUserInformation()">Submit</button>
        
+    </div> -->
+    <div class="Data-container">
+        <div>
+            <label for="name">Add Your name:</label><br>
+            <input id="name">
+        </div>
+        <div>
+            <label for="email">Add your email:</label><br>
+            <input id="email">
+        </div>
+        <div>
+            <label for="comment">Please add a comment:</label><br>
+            <input id="comment">
+        </div>
+        <button type="button" onclick="getUserInformation()">Submit</button>
     </div>
-        
+    <!--         
     <div class="Help-container">
         <div class="Data">Please tell us your name:</div><br>
         <div class="Data">Please share your email:</div><br>
         <div class="Data">Please share your comment:</div><br>
-        </div>   
+        </div>    -->
 
-        <div>
-            <p id="validation-message"></p>
-        </div>
-        
-    
+    <div>
+        <p id="validation-message"></p>
+    </div>
+
+
     <footer id="main-footer">
 
         <span>&copy;2020 YerVonda Fishing Experience LLC</span><br>
