@@ -11,6 +11,7 @@ Features of project:
 3) Form using JavaScript that returns a value after each input (name, email, content). 
 
 Requirements to view project:
+I checked this project on Mac OS, it was also responsive on Windows.  Internet browser chrome, firefox,and Safari was tested.
 
 
 Reference:
