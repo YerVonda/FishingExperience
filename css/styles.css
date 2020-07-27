@@ -211,17 +211,24 @@ h2 {
   text-align: center;
   font-size: large;
 }
-p.Data > div {
+.Data-container {
+  display: flex;
+  justify-content: center;
+}
+.Help-container {
  display: flex;
- justify-content: center;
- align-items: center;
+ justify-content: center; 
+}
+.Help-container > div {
+  font-size: 15px;
+  
 }
 
-button > div {
+.button {
   display: flex;
 }
 
-p.validation-message > div {
+.validation-message {
   display: flex;
 }
 
