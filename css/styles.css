@@ -211,11 +211,20 @@ h2 {
   text-align: center;
   font-size: large;
 }
-p.Data > div > {
- display: block;
+p.Data > div {
+ display: flex;
  justify-content: center;
  align-items: center;
 }
+
+button > div {
+  display: flex;
+}
+
+p.validation-message > div {
+  display: flex;
+}
+
 
 footer {
     text-align: center;
