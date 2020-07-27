@@ -46,7 +46,7 @@ function getUserInformation() {
         text = "Invaild Name  ";
     } 
 
-    //  Valide User Email
+    //  Validate User Email
     var re = /\S+@\S+\.\S+/;   
     if (!re.test(emailIn)) {
       text = text + "incorrect email  ";

@@ -211,8 +211,10 @@ h2 {
   text-align: center;
   font-size: large;
 }
-p.Data{
- text-align: center;
+p.Data > div > {
+ display: block;
+ justify-content: center;
+ align-items: center;
 }
 
 footer {
