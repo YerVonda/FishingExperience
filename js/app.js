@@ -59,7 +59,7 @@ function getUserInformation() {
   if (text.length == 0) {
 
 
-    text = "Thank You For Your Respone. Someone will get back with you shortly";
+    text = "Thank You For Your Respone. Someone Will Get Back With You Shortly!";
   }
   document.getElementById("validation-message").innerHTML = text;
 }
